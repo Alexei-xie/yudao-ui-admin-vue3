@@ -201,6 +201,7 @@ export default {
     access: '项目访问',
     toDo: '待办',
     introduction: '一个正经的简介',
+    gitHubIntroduction: '我的GitHub主页',
     shortcutOperation: '快捷入口',
     operation: '操作',
     index: '指数',

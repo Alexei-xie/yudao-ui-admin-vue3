@@ -77,10 +77,13 @@
               :xs="24"
             >
               <el-card shadow="hover">
+                <!--rel="noopener noreferrer" :增强网站的安全性和隐私保护-->
+                <a :href="item.url" target="_blank" rel="noopener noreferrer">
                 <div class="flex items-center">
                   <Icon :icon="item.icon" :size="25" class="mr-8px" />
                   <span class="text-16px">{{ item.name }}</span>
                 </div>
+                </a>
                 <div class="mt-16px text-14px text-gray-400">{{ t(item.message) }}</div>
                 <div class="mt-16px flex justify-between text-12px text-gray-400">
                   <span>{{ item.personal }}</span>
@@ -206,9 +209,10 @@ const getProject = async () => {
     {
       name: 'Github',
       icon: 'akar-icons:github-fill',
-      message: 'workplace.introduction',
+      message: 'workplace.gitHubIntroduction',
       personal: 'Archer',
-      time: new Date()
+      time: new Date(),
+      url: 'https://github.com/Alexei-xie?tab=repositories'
     },
     {
       name: 'Vue',
