@@ -195,7 +195,8 @@ export default {
   workplace: {
     welcome: '你好',
     happyDay: '祝你开心每一天!',
-    toady: '今日晴',
+    toady: '今日',
+    weather: '晴~',
     notice: '通知公告',
     project: '项目数',
     access: '项目访问',

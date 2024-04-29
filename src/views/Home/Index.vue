@@ -13,7 +13,7 @@
                   {{ t('workplace.welcome') }} {{ username }} {{ t('workplace.happyDay') }}
                 </div>
                 <div class="mt-10px text-14px text-gray-500">
-                  {{ t('workplace.toady') }}，20℃ - 32℃！
+                  {{ new Date().toLocaleDateString().replaceAll('/', '-') }} {{ t('workplace.toady') }} {{ t('workplace.weather') }}，20℃ - 32℃！
                 </div>
               </div>
             </div>
